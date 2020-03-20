@@ -11,7 +11,7 @@ const port = 3001
 app.get('/api/products', getProducts)
 app.get('/api/product/:id', getProduct)
 app.post('/api/products', addProduct)
-app.put('/api/products/:id', updateProduct)
+app.put('/api/product/:id', updateProduct)
 app.delete('api/product/:id', deleteProduct)
 
 app.listen(port, () => {

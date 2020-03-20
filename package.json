@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/youngchang8660/node-1-afternoon#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "nodemon": "^2.0.2"
-  }
+  },
+  "devDependencies": {}
 }
